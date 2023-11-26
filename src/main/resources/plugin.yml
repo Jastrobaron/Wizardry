@@ -1,0 +1,12 @@
+name: Wizardry
+version: '${project.version}'
+main: xyz.rtsvk.paper.wizardry.Wizardry
+api-version: '1.20'
+author: Jastrobaron
+description: Wizardry plugin for PaperMC
+commands:
+  wand:
+    description: Gives you a wand
+    usage: /<command>
+    permission: wizardry.wand
+    permission-message: You don't have permission to use this command
